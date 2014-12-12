@@ -146,18 +146,20 @@ ul.select-lang {
 		margin: 0 auto;
 		margin-top: 69px;
 		margin-bottom: 160px;
-		box-sizing: border-box;
 		width: 33%;
 
 		p {
 			color: $download_link;
-			border-bottom: 1px solid $download_link;
-			line-height: 1.8;
-			margin-top: 4px;
+			margin-top: 19px;
+			span {
+				padding-bottom: 5px;
+				border-bottom: 1px solid $download_link;
+			}
 		}
 	}
 
 	.download-icon {
+		box-sizing: border-box;
 		width: 97px;
 		height: 97px;
 		margin: 0 auto;
@@ -169,7 +171,7 @@ ul.select-lang {
 			display: inline-block;
 			width: 39px;
 			height: 47px;
-			margin-top: 28px;
+			margin-top: 24px;
 		}
 	}
 }
