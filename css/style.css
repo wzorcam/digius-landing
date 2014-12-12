@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+body {
+  background-color: #23262c;
+  color: #cbced4; }
+
+h1, p, a {
+  color: #cbced4; }
+
+header {
+  min-width: 1143px;
+  max-width: 1920px; }
+  header div.logo-digius {
+    float: left; }
+    header div.logo-digius img {
+      display: block;
+      width: 104px;
+      height: 21px; }
+  header ul.select-lang {
+    float: right; }
+    header ul.select-lang li {
+      display: inline-block; }
+
+.main-content, footer {
+  margin: 0 auto;
+  width: 1143px; }
+
+footer .contacts-list .contacts-item {
+  width: 196.6px;
+  float: left; }

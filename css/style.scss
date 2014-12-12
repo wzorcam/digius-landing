@@ -19,3 +19,54 @@ $download_link_active: #fff;
 $language_link: #363a42;
 $language_link_active: $primary_grey;
 $copyright: $primary_grey;
+
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+
+body {
+	background-color: $main_background;
+	color: $primary_grey;
+}
+
+h1, p, a {
+	color: $primary_grey;
+}
+
+header {
+	min-width: $wrapper_width;
+	max-width: $max_width;
+
+	div.logo-digius {
+		float: left;
+
+		img {
+			display: block;
+			width: 104px;
+			height: 21px
+		}
+	}
+
+	ul.select-lang {
+		float: right;
+		li {
+			display: inline-block;
+		}
+	}
+}
+
+.main-content, footer {
+	margin: 0 auto;
+	width: $wrapper_width;
+}
+
+footer {
+	.contacts-list .contacts-item {
+		width: $contact_item_width;
+		float: left;
+	}
+
+	.p.copyright {
+
+	}
+}
