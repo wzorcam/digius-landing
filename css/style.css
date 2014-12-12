@@ -10,6 +10,10 @@ body {
 h1, p, a {
   color: #cbced4; }
 
+p {
+  font-size: 18px;
+  letter-spacing: 1px; }
+
 a {
   text-decoration: none; }
 
@@ -27,24 +31,25 @@ header {
       width: 104px;
       height: 21px;
       margin-left: 40px; }
-  header ul.select-lang {
-    float: right;
-    margin-right: 40px; }
-    header ul.select-lang li {
+
+ul.select-lang {
+  float: right;
+  margin-right: 40px; }
+  ul.select-lang li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold; }
+    ul.select-lang li a {
       display: inline-block;
-      text-transform: uppercase;
-      font-size: 12px;
-      font-weight: bold; }
-      header ul.select-lang li a {
-        display: inline-block;
-        color: #363a42;
-        margin-left: 31px; }
-        header ul.select-lang li a:hover, header ul.select-lang li a:active {
-          color: #cbced4; }
-        header ul.select-lang li a:hover {
-          color: #cbced4; }
-      header ul.select-lang li.active a {
+      color: #363a42;
+      margin-left: 31px; }
+      ul.select-lang li a:link, ul.select-lang li a:visited {
+        color: #363a42; }
+      ul.select-lang li a:hover, ul.select-lang li a:active {
         color: #cbced4; }
+    ul.select-lang li.active a {
+      color: #cbced4; }
 
 /* ==========================================================================
    Main section styles
@@ -63,9 +68,7 @@ header {
     font-weight: bold; }
   .main-content > p {
     margin-top: 35px;
-    color: #919396;
-    font-size: 18px;
-    letter-spacing: 1px; }
+    color: #919396; }
   .main-content .send-request-button {
     box-sizing: border-box;
     width: 236px;
@@ -85,6 +88,29 @@ header {
       font-size: 15px;
       font-weight: bold;
       letter-spacing: 2px; }
+  .main-content .download-link {
+    margin: 0 auto;
+    margin-top: 69px;
+    margin-bottom: 160px;
+    box-sizing: border-box;
+    width: 33%; }
+    .main-content .download-link p {
+      color: #e04241;
+      border-bottom: 1px solid #e04241;
+      line-height: 1.8;
+      margin-top: 4px; }
+  .main-content .download-icon {
+    width: 97px;
+    height: 97px;
+    margin: 0 auto;
+    border: 4px solid #32343b;
+    border-radius: 50%;
+    text-align: center; }
+    .main-content .download-icon img {
+      display: inline-block;
+      width: 39px;
+      height: 47px;
+      margin-top: 28px; }
 
 /* ==========================================================================
    Footer styles
