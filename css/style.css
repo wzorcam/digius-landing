@@ -117,14 +117,19 @@ ul.select-lang {
    Footer styles
    ========================================================================== */
 footer .contacts-list {
-  width: 983px;
+  width: 1060px;
   margin: 0 auto; }
   footer .contacts-list .contacts-item {
     box-sizing: border-box;
-    width: 196.6px;
-    float: left; }
+    width: 212px;
+    float: left;
+    cursor: pointer; }
     footer .contacts-list .contacts-item h3, footer .contacts-list .contacts-item p {
       color: #919396; }
+    footer .contacts-list .contacts-item.active h3, footer .contacts-list .contacts-item:hover h3 {
+      color: white; }
+    footer .contacts-list .contacts-item.active p, footer .contacts-list .contacts-item:hover p {
+      color: #bbbbbb; }
     footer .contacts-list .contacts-item h3 {
       font-size: 18px;
       font-weight: bold;

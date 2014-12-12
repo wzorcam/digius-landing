@@ -2,8 +2,9 @@
 $max_width: 1920px;
 $wrapper_width: 1143px;
 $content_width: 983px;
+$contacts_list_width: 1060px;
 
-$contact_item_width: $content_width / 5;
+$contact_item_width: $contacts_list_width / 5;
 
 // color values:
 $main_background: #23262c;
@@ -182,15 +183,25 @@ ul.select-lang {
 
 footer {
 	.contacts-list {
-		width: $content_width;
+		width: $contacts_list_width;
 		margin: 0 auto;
 		
 		.contacts-item {
 			box-sizing: border-box;
 			width: $contact_item_width;
 			float: left;
+			cursor: pointer;
+			
 			h3, p {
 				color: $contacts_disabled;
+			}
+
+			&.active h3, &:hover h3 {
+				color: $contacts_active_title;
+			}
+
+			&.active p, &:hover p {
+				color: $contacts_active_text;
 			}
 
 			h3 {
