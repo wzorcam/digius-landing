@@ -82,16 +82,29 @@ ul.select-lang {
 			display: inline-block;
 			color: $language_link;
 			margin-left: 31px;
+
+			-webkit-transition: all 0.2s linear;
+    		transition: all 0.2s linear;
+			
 			&:link, &:visited {
 				color: $language_link;
+
+				-webkit-transition: all 0.2s linear;
+    			transition: all 0.2s linear;
 			}
 			&:hover, &:active {
 				color: $language_link_active;
+
+				-webkit-transition: all 0.2s linear;
+    			transition: all 0.2s linear;
 			}
 		}
 
 		&.active a {
 			color: $language_link_active;
+
+			-webkit-transition: all 0.2s linear;
+    		transition: all 0.2s linear;
 		}
 	}
 }
@@ -194,14 +207,20 @@ footer {
 			
 			h3, p {
 				color: $contacts_disabled;
+				-webkit-transition: all 0.2s linear;
+    			transition: all 0.2s linear;
 			}
 
 			&.active h3, &:hover h3 {
 				color: $contacts_active_title;
+				-webkit-transition: all 0.2s linear;
+    			transition: all 0.2s linear;
 			}
 
 			&.active p, &:hover p {
 				color: $contacts_active_text;
+				-webkit-transition: all 0.2s linear;
+    			transition: all 0.2s linear;
 			}
 
 			h3 {

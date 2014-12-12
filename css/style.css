@@ -43,13 +43,21 @@ ul.select-lang {
     ul.select-lang li a {
       display: inline-block;
       color: #363a42;
-      margin-left: 31px; }
+      margin-left: 31px;
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
       ul.select-lang li a:link, ul.select-lang li a:visited {
-        color: #363a42; }
+        color: #363a42;
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear; }
       ul.select-lang li a:hover, ul.select-lang li a:active {
-        color: #cbced4; }
+        color: #cbced4;
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear; }
     ul.select-lang li.active a {
-      color: #cbced4; }
+      color: #cbced4;
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
 
 /* ==========================================================================
    Main section styles
@@ -125,11 +133,17 @@ footer .contacts-list {
     float: left;
     cursor: pointer; }
     footer .contacts-list .contacts-item h3, footer .contacts-list .contacts-item p {
-      color: #919396; }
+      color: #919396;
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
     footer .contacts-list .contacts-item.active h3, footer .contacts-list .contacts-item:hover h3 {
-      color: white; }
+      color: white;
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
     footer .contacts-list .contacts-item.active p, footer .contacts-list .contacts-item:hover p {
-      color: #bbbbbb; }
+      color: #bbbbbb;
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
     footer .contacts-list .contacts-item h3 {
       font-size: 18px;
       font-weight: bold;
