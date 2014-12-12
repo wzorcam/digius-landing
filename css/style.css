@@ -13,6 +13,9 @@ h1, p, a {
 a {
   text-decoration: none; }
 
+/* ==========================================================================
+   Header styles
+   ========================================================================== */
 header {
   min-width: 983px;
   max-width: 1920px;
@@ -43,10 +46,44 @@ header {
       header ul.select-lang li.active a {
         color: #cbced4; }
 
+/* ==========================================================================
+   Main section styles
+   ========================================================================== */
 .main-content, footer {
   margin: 0 auto;
   width: 983px; }
 
+.main-content {
+  text-align: center; }
+  .main-content h1 {
+    margin-top: 116px;
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 8px;
+    font-weight: bold; }
+  .main-content > p {
+    margin-top: 41px;
+    color: #919396;
+    font-size: 18px;
+    letter-spacing: 1px; }
+  .main-content .send-request-button {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center; }
+    .main-content .send-request-button a {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      width: 236px;
+      height: 51px;
+      background-color: #e04241;
+      color: white;
+      text-transform: uppercase;
+      font-size: 14px; }
+
+/* ==========================================================================
+   Footer styles
+   ========================================================================== */
 footer .contacts-list {
   width: 983px;
   margin: 0 auto; }
