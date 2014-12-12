@@ -14,7 +14,7 @@ a {
   text-decoration: none; }
 
 header {
-  min-width: 1143px;
+  min-width: 983px;
   max-width: 1920px;
   padding: 47px 0px; }
   header div.logo-digius {
@@ -36,6 +36,8 @@ header {
         display: inline-block;
         color: #363a42;
         margin-left: 31px; }
+        header ul.select-lang li a:hover, header ul.select-lang li a:active {
+          color: #cbced4; }
         header ul.select-lang li a:hover {
           color: #cbced4; }
       header ul.select-lang li.active a {
@@ -43,8 +45,14 @@ header {
 
 .main-content, footer {
   margin: 0 auto;
-  width: 1143px; }
+  width: 983px; }
 
+footer .contacts-list {
+  width: 983px;
+  margin: 0 auto; }
 footer .contacts-list .contacts-item {
+  box-sizing: border-box;
   width: 196.6px;
   float: left; }
+footer p.copyright {
+  text-align: center; }

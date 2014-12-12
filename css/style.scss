@@ -43,7 +43,7 @@ a {
 }
 
 header {
-	min-width: $wrapper_width;
+	min-width: $content_width;
 	max-width: $max_width;
 	padding: 47px 0px;
 
@@ -70,6 +70,9 @@ header {
 				display: inline-block;
 				color: $language_link;
 				margin-left: 31px;
+				&:hover, &:active {
+					color: $language_link_active;
+				}
 				&:hover {
 					color: $language_link_active;
 				}
@@ -84,16 +87,21 @@ header {
 
 .main-content, footer {
 	margin: 0 auto;
-	width: $wrapper_width;
+	width: $content_width;
 }
 
 footer {
+	.contacts-list {
+		width: $content_width;
+		margin: 0 auto;
+	}
 	.contacts-list .contacts-item {
+		box-sizing: border-box;
 		width: $contact_item_width;
 		float: left;
 	}
 
-	.p.copyright {
-
+	p.copyright {
+		text-align: center;
 	}
 }
