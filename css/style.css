@@ -62,24 +62,29 @@ header {
     letter-spacing: 8px;
     font-weight: bold; }
   .main-content > p {
-    margin-top: 41px;
+    margin-top: 35px;
     color: #919396;
     font-size: 18px;
     letter-spacing: 1px; }
   .main-content .send-request-button {
     box-sizing: border-box;
+    width: 236px;
+    height: 51px;
     margin: 0 auto;
-    text-align: center; }
+    margin-top: 17px; }
     .main-content .send-request-button a {
+      text-align: center;
       display: table-cell;
+      width: inherit;
+      height: inherit;
       vertical-align: middle;
       text-align: center;
-      width: 236px;
-      height: 51px;
       background-color: #e04241;
       color: white;
       text-transform: uppercase;
-      font-size: 14px; }
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 2px; }
 
 /* ==========================================================================
    Footer styles

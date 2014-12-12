@@ -110,7 +110,7 @@ header {
 	}
 
 	> p {
-		margin-top: 41px;
+		margin-top: 35px;
 		color: $secondary_grey;
 		font-size: 18px;
 		letter-spacing: 1px;
@@ -118,19 +118,23 @@ header {
 
 	.send-request-button {
 		box-sizing: border-box;
+		width: 236px;
+		height: 51px;
 		margin: 0 auto;
-		text-align: center;
-
+		margin-top: 17px;
 		a {
+			text-align: center;
 			display: table-cell;
+			width: inherit;
+			height: inherit;
 			vertical-align: middle;
 			text-align: center;
-			width: 236px;
-			height: 51px;
 			background-color: $send_button_red;
 			color: $send_button_text;
 			text-transform: uppercase;
-			font-size: 14px;
+			font-size: 15px;
+			font-weight: bold;
+			letter-spacing: 2px;
 		}
 	}
 }
