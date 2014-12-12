@@ -1,8 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
 /* ==========================================================================
    Main styles
    ========================================================================== */
 body {
   background-color: #23262c;
+  font-family: 'PT Sans', sans-serif;
   color: #cbced4; }
 
 h1, p, a {
@@ -10,7 +12,8 @@ h1, p, a {
 
 header {
   min-width: 1143px;
-  max-width: 1920px; }
+  max-width: 1920px;
+  padding: 47px 40px; }
   header div.logo-digius {
     float: left; }
     header div.logo-digius img {

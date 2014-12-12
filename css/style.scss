@@ -20,12 +20,17 @@ $language_link: #363a42;
 $language_link_active: $primary_grey;
 $copyright: $primary_grey;
 
+// import fonts (PT Sans)
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+
 /* ==========================================================================
    Main styles
    ========================================================================== */
 
 body {
 	background-color: $main_background;
+	font-family: 'PT Sans', sans-serif;
 	color: $primary_grey;
 }
 
@@ -36,6 +41,7 @@ h1, p, a {
 header {
 	min-width: $wrapper_width;
 	max-width: $max_width;
+	padding: 47px 40px;
 
 	div.logo-digius {
 		float: left;
