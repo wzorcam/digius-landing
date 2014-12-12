@@ -1,0 +1,21 @@
+// width values:
+$max_width: 1920px;
+$wrapper_width: 1143px;
+$content_width: 983px;
+
+$contact_item_width: $content_width / 5;
+
+// color values:
+$main_background: #23262c;
+$primary_grey: #cbced4;
+$secondary_grey: #919396;
+$contacts_disabled: #919396;
+$contacts_active_title: #fff;
+$contacts_active_text: #bbbbbb;
+$send_button_red: #e04241;
+$send_button_text: #fff;
+$download_link: $send_button_red;
+$download_link_active: #fff;
+$language_link: #363a42;
+$language_link_active: $primary_grey;
+$copyright: $primary_grey;
