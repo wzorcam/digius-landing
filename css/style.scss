@@ -38,10 +38,14 @@ h1, p, a {
 	color: $primary_grey;
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	min-width: $wrapper_width;
 	max-width: $max_width;
-	padding: 47px 40px;
+	padding: 47px 0px;
 
 	div.logo-digius {
 		float: left;
@@ -49,14 +53,31 @@ header {
 		img {
 			display: block;
 			width: 104px;
-			height: 21px
+			height: 21px;
+			margin-left: 40px;
 		}
 	}
 
 	ul.select-lang {
 		float: right;
+		margin-right: 40px;
 		li {
 			display: inline-block;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: bold;
+			a {
+				display: inline-block;
+				color: $language_link;
+				margin-left: 31px;
+				&:hover {
+					color: $language_link_active;
+				}
+			}
+
+			&.active a {
+				color: $language_link_active;
+			}
 		}
 	}
 }

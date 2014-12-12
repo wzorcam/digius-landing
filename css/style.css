@@ -10,20 +10,36 @@ body {
 h1, p, a {
   color: #cbced4; }
 
+a {
+  text-decoration: none; }
+
 header {
   min-width: 1143px;
   max-width: 1920px;
-  padding: 47px 40px; }
+  padding: 47px 0px; }
   header div.logo-digius {
     float: left; }
     header div.logo-digius img {
       display: block;
       width: 104px;
-      height: 21px; }
+      height: 21px;
+      margin-left: 40px; }
   header ul.select-lang {
-    float: right; }
+    float: right;
+    margin-right: 40px; }
     header ul.select-lang li {
-      display: inline-block; }
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold; }
+      header ul.select-lang li a {
+        display: inline-block;
+        color: #363a42;
+        margin-left: 31px; }
+        header ul.select-lang li a:hover {
+          color: #cbced4; }
+      header ul.select-lang li.active a {
+        color: #cbced4; }
 
 .main-content, footer {
   margin: 0 auto;
