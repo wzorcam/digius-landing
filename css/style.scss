@@ -26,9 +26,9 @@ $copyright: $primary_grey;
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
 
-@mixin link_animation {
-	-webkit-transition: all 0.2s linear;
-	transition: all 0.2s linear;
+@mixin link_animation ($duration: 0.2s){
+	-webkit-transition: all $duration linear;
+	transition: all $duration linear;
 }
 
 /* ==========================================================================
@@ -169,16 +169,16 @@ ul.select-lang {
 			&:hover {
 				.download-icon {
 					border-color: $secondary_grey;
-					@include link_animation;
+					@include link_animation(0.15s);
 
 					img {
 						opacity: 1;
-						@include link_animation;
+						@include link_animation(0.15s);
 					}
 				}
 				p, p span {
 					color: $download_link_active;
-					@include link_animation;
+					@include link_animation(0.15s);
 				}
 			}
 		}
@@ -186,7 +186,7 @@ ul.select-lang {
 		p {
 			color: $download_link;
 			margin-top: 19px;
-			@include link_animation;
+			@include link_animation(0.15s);
 
 			span {
 				padding-bottom: 5px;
@@ -203,7 +203,7 @@ ul.select-lang {
 		border: 4px solid $download_icon_border;
 		border-radius: 50%;
 		text-align: center;
-		@include link_animation;
+		@include link_animation(0.15s);
 		
 		img {
 			display: inline-block;
@@ -212,7 +212,7 @@ ul.select-lang {
 			margin-top: 24px;
 			opacity: 0.7;
 
-			@include link_animation;
+			@include link_animation(0.15s);
 		}
 	}
 }

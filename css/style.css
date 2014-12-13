@@ -103,21 +103,21 @@ ul.select-lang {
     width: 33%; }
     .main-content .download-link a:hover .download-icon {
       border-color: #919396;
-      -webkit-transition: all 0.2s linear;
-      transition: all 0.2s linear; }
+      -webkit-transition: all 0.15s linear;
+      transition: all 0.15s linear; }
       .main-content .download-link a:hover .download-icon img {
         opacity: 1;
-        -webkit-transition: all 0.2s linear;
-        transition: all 0.2s linear; }
+        -webkit-transition: all 0.15s linear;
+        transition: all 0.15s linear; }
     .main-content .download-link a:hover p, .main-content .download-link a:hover p span {
       color: white;
-      -webkit-transition: all 0.2s linear;
-      transition: all 0.2s linear; }
+      -webkit-transition: all 0.15s linear;
+      transition: all 0.15s linear; }
     .main-content .download-link p {
       color: #e04241;
       margin-top: 19px;
-      -webkit-transition: all 0.2s linear;
-      transition: all 0.2s linear; }
+      -webkit-transition: all 0.15s linear;
+      transition: all 0.15s linear; }
       .main-content .download-link p span {
         padding-bottom: 5px;
         border-bottom: 1px solid; }
@@ -129,16 +129,16 @@ ul.select-lang {
     border: 4px solid #32343b;
     border-radius: 50%;
     text-align: center;
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear; }
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear; }
     .main-content .download-icon img {
       display: inline-block;
       width: 39px;
       height: 47px;
       margin-top: 24px;
       opacity: 0.7;
-      -webkit-transition: all 0.2s linear;
-      transition: all 0.2s linear; }
+      -webkit-transition: all 0.15s linear;
+      transition: all 0.15s linear; }
 
 /* ==========================================================================
    Footer styles
