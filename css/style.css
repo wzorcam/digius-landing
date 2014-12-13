@@ -163,17 +163,37 @@ footer .contacts-list {
       color: #bbbbbb;
       -webkit-transition: all 0.2s linear;
       transition: all 0.2s linear; }
+    footer .contacts-list .contacts-item:hover p:nth-of-type(1) {
+      background-image: url(../img/map-active.png);
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+    footer .contacts-list .contacts-item:hover p:nth-of-type(2) {
+      background-image: url(../img/phone-active.png);
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
     footer .contacts-list .contacts-item h3 {
       font-size: 18px;
       font-weight: bold;
       letter-spacing: 2px;
-      margin-bottom: 22px; }
+      margin-bottom: 17px; }
     footer .contacts-list .contacts-item p {
       font-family: Arial, sans-serif;
       font-size: 0.825em;
       letter-spacing: 0.05em;
       line-height: 1;
-      margin-bottom: 21px; }
+      margin-bottom: 16px;
+      padding-left: 18px;
+      background-repeat: no-repeat;
+      background-position-y: 0px;
+      padding-top: 5px; }
+    footer .contacts-list .contacts-item p:nth-of-type(1) {
+      background-image: url(../img/map.png);
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+    footer .contacts-list .contacts-item p:nth-of-type(2) {
+      background-image: url(../img/phone.png);
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
 footer .copyright {
   margin-top: 35px;
   margin-bottom: 15px;
