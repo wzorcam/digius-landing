@@ -252,7 +252,7 @@ ul.select-lang {
    ========================================================================== */
 body:after {
   display: none;
-  content: url(../img/map.png) url(../img/phone.png); }
+  content: url(../img/map.png) url(../img/phone.png) url(../img/map-active.png) url(../img/phone-active.png); }
 
 footer .contacts-list {
   width: 1060px;
