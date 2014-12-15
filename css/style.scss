@@ -239,6 +239,12 @@ ul.select-lang {
    Footer styles
    ========================================================================== */
 
+// Preload icons
+body:after{
+    display:none;
+    content: url(../img/map.png) url(../img/phone.png);
+}
+
 footer {
 	.contacts-list {
 		width: $contacts_list_width;
