@@ -17,7 +17,7 @@ $send_button_red: #e04241;
 $send_button_text: #fff;
 $download_link: $send_button_red;
 $download_link_active: #fff;
-$download_icon_border: #32343b;
+//$download_icon_border: #32343b;
 $language_link: #363a42;
 $language_link_active: $primary_grey;
 $copyright: $primary_grey;
@@ -152,8 +152,8 @@ ul.select-lang {
 		a {
 			text-align: center;
 			display: table-cell;
-			width: inherit;
-			height: inherit;
+			width: 236px - 2;
+			height: 51px - 2;
 			vertical-align: middle;
 			text-align: center;
 			background-color: $send_button_red;
@@ -162,6 +162,16 @@ ul.select-lang {
 			font-size: 15px;
 			font-weight: bold;
 			letter-spacing: 2px;
+
+			border: 1px solid $send_button_red;
+
+			@include link_animation(0.15s);
+
+			&:hover {
+				background-color: transparent;
+				color: $send_button_red;
+				@include link_animation(0.15s);
+			}
 		}
 	}
 
