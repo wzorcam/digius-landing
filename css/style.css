@@ -1,4 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px; }
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+.invisible {
+  visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
 /* ==========================================================================
    Main styles
    ========================================================================== */
@@ -102,11 +201,11 @@ ul.select-lang {
     margin-bottom: 166px;
     width: 33%; }
     .main-content .download-link a:hover .download-icon {
-      border-color: #919396;
+      border-color: #2b2e33;
       -webkit-transition: all 0.15s linear;
       transition: all 0.15s linear; }
       .main-content .download-link a:hover .download-icon img {
-        opacity: 1;
+        opacity: 0.7;
         -webkit-transition: all 0.15s linear;
         transition: all 0.15s linear; }
     .main-content .download-link a:hover p, .main-content .download-link a:hover p span {
@@ -126,7 +225,7 @@ ul.select-lang {
     width: 97px;
     height: 97px;
     margin: 0 auto;
-    border: 4px solid #32343b;
+    border: 4px solid #32343a;
     border-radius: 50%;
     text-align: center;
     -webkit-transition: all 0.15s linear;
@@ -136,7 +235,7 @@ ul.select-lang {
       width: 39px;
       height: 47px;
       margin-top: 24px;
-      opacity: 0.7;
+      opacity: 1;
       -webkit-transition: all 0.15s linear;
       transition: all 0.15s linear; }
 
