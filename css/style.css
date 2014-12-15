@@ -185,8 +185,8 @@ ul.select-lang {
     .main-content .send-request-button a {
       text-align: center;
       display: table-cell;
-      width: inherit;
-      height: inherit;
+      width: 234px;
+      height: 49px;
       vertical-align: middle;
       text-align: center;
       background-color: #e04241;
@@ -194,7 +194,15 @@ ul.select-lang {
       text-transform: uppercase;
       font-size: 15px;
       font-weight: bold;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      border: 1px solid #e04241;
+      -webkit-transition: all 0.15s linear;
+      transition: all 0.15s linear; }
+      .main-content .send-request-button a:hover {
+        background-color: transparent;
+        color: #e04241;
+        -webkit-transition: all 0.15s linear;
+        transition: all 0.15s linear; }
   .main-content .download-link {
     margin: 0 auto;
     margin-top: 69px;
